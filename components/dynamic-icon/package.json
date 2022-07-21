@@ -1,6 +1,6 @@
 {
-  "name": "@kevinrpb/dynamic-icon",
-  "version": "0.0.2-3",
+  "name": "@nextjs-utils/dynamic-icon",
+  "version": "0.0.2-4",
   "description": "Dynamically import from `react-icons` by name",
   "keywords": [
     "nextjs",
@@ -10,7 +10,7 @@
     "import"
   ],
   "author": "Kevin Romero Peces-Barba <hello@kevinrpb.me>",
-  "homepage": "https://kevinrpb.me/portfolio/packages/dynamic-icon",
+  "homepage": "https://kevinrpb.me/portfolio/packages/nextjs-utils",
   "license": "MIT",
   "main": "src/dynamic-icon.js",
   "repository": {

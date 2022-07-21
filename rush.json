@@ -24,12 +24,12 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "@kevinrpb/dynamic-icon",
+      "packageName": "@nextjs-utils/dynamic-icon",
       "projectFolder": "components/dynamic-icon",
       "versionPolicyName": "nextjs-utils"
     },
     {
-      "packageName": "@kevinrpb/sane-link",
+      "packageName": "@nextjs-utils/sane-link",
       "projectFolder": "components/sane-link",
       "versionPolicyName": "nextjs-utils"
     }

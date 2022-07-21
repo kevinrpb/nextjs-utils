@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@nextjs-utils/dynamic-icon",
+      "comment": "Change packages scope to org",
+      "type": "none"
+    }
+  ],
+  "packageName": "@nextjs-utils/dynamic-icon"
+}
