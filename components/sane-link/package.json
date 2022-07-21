@@ -1,7 +1,7 @@
 {
-  "name": "@kevinrpb/dynamic-icon",
+  "name": "@kevinrpb/sane-link",
   "version": "0.0.2-3",
-  "description": "Dynamically import from `react-icons` by name",
+  "description": "A replacement for `@next/link` that is replaced by an `a` tag for external sites.",
   "keywords": [
     "nextjs",
     "react",
@@ -10,9 +10,9 @@
     "import"
   ],
   "author": "Kevin Romero Peces-Barba <hello@kevinrpb.me>",
-  "homepage": "https://kevinrpb.me/portfolio/packages/dynamic-icon",
+  "homepage": "https://kevinrpb.me/portfolio/packages/sane-link",
   "license": "MIT",
-  "main": "src/dynamic-icon.js",
+  "main": "src/sane-link.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinrpb/nextjs-utils.git"
@@ -26,7 +26,6 @@
   "dependencies": {
     "next": "^12.1.6",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-icons": "^4.4.0"
+    "react-dom": "^18.1.0"
   }
 }

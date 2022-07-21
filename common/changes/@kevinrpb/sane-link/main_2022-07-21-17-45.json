@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@kevinrpb/sane-link",
+      "comment": "Add `sane-link` component",
+      "type": "none"
+    }
+  ],
+  "packageName": "@kevinrpb/sane-link"
+}

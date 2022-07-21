@@ -9,8 +9,7 @@
   },
   "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
   "ensureConsistentVersions": true,
-  "gitPolicy": {
-  },
+  "gitPolicy": {},
   "repository": {
     "url": "https://github.com/kevinrpb/nextjs-utils",
     "defaultBranch": "main",
@@ -27,6 +26,11 @@
     {
       "packageName": "@kevinrpb/dynamic-icon",
       "projectFolder": "components/dynamic-icon",
+      "versionPolicyName": "nextjs-utils"
+    },
+    {
+      "packageName": "@kevinrpb/sane-link",
+      "projectFolder": "components/sane-link",
       "versionPolicyName": "nextjs-utils"
     }
   ]
