@@ -26,7 +26,8 @@
   "projects": [
     {
       "packageName": "@kevinrpb/dynamic-icon",
-      "projectFolder": "components/dynamic-icon"
+      "projectFolder": "components/dynamic-icon",
+      "versionPolicyName": "nextjs-utils"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@kevinrpb/dynamic-icon",
-  "version": "0.0.1",
+  "version": "0.0.2-2",
   "description": "Dynamically import from `react-icons` by name",
   "keywords": [
     "nextjs",
@@ -17,7 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/kevinrpb/nextjs-utils.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": ""
+  },
   "bugs": {
     "url": "https://github.com/kevinrpb/nextjs-utils/issues"
   },
