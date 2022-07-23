@@ -1,7 +1,6 @@
 {
   "name": "@nextjs-utils/sane-link",
-  "version": "0.0.2-7",
-  "type": "module",
+  "version": "0.0.2-8",
   "description": "A replacement for `@next/link` that is replaced by an `a` tag for external sites.",
   "keywords": [
     "nextjs",
