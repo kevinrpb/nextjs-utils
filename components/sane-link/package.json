@@ -1,6 +1,7 @@
 {
   "name": "@nextjs-utils/sane-link",
-  "version": "0.0.2-6",
+  "version": "0.0.2-7",
+  "type": "module",
   "description": "A replacement for `@next/link` that is replaced by an `a` tag for external sites.",
   "keywords": [
     "nextjs",
@@ -12,21 +13,28 @@
   "author": "Kevin Romero Peces-Barba <hello@kevinrpb.me>",
   "homepage": "https://kevinrpb.me/portfolio/packages/nextjs-utils",
   "license": "MIT",
-  "main": "src/sane-link.jsx",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinrpb/nextjs-utils.git"
   },
-  "scripts": {
-    "build": ""
-  },
   "bugs": {
     "url": "https://github.com/kevinrpb/nextjs-utils/issues"
+  },
+  "main": "dist/sane-link.js",
+  "module": "dist/sane-link.js",
+  "files": [ "dist", "README.md", "LICENSE" ],
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/ --out-dir dist --copy-files"
   },
   "dependencies": {
     "next": "^12.1.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.18.9",
+    "@babel/cli": "~7.18.9",
+    "@babel/preset-env": "~7.18.9",
+    "@babel/preset-react": "~7.18.6"
   }
 }
