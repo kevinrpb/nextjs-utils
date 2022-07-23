@@ -1,6 +1,6 @@
 {
   "name": "@nextjs-utils/sane-link",
-  "version": "0.0.2-4",
+  "version": "0.0.2-5",
   "description": "A replacement for `@next/link` that is replaced by an `a` tag for external sites.",
   "keywords": [
     "nextjs",
@@ -13,6 +13,7 @@
   "homepage": "https://kevinrpb.me/portfolio/packages/nextjs-utils",
   "license": "MIT",
   "main": "src/sane-link.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinrpb/nextjs-utils.git"
