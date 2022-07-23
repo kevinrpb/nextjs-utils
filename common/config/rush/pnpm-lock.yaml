@@ -9,15 +9,15 @@ importers:
     specifiers:
       '@babel/cli': ~7.18.9
       '@babel/core': ~7.18.9
-      '@babel/polyfill': ~7.12.1
       '@babel/preset-env': ~7.18.9
       '@babel/preset-react': ~7.18.6
+      core-js: ~3.23.5
       next: ^12.1.6
       react: ^18.1.0
       react-dom: ^18.1.0
       react-icons: ^4.4.0
     dependencies:
-      '@babel/polyfill': 7.12.1
+      core-js: 3.23.5
       next: 12.2.2_850d4ee91924e701c20cec04912e6240
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -32,14 +32,14 @@ importers:
     specifiers:
       '@babel/cli': ~7.18.9
       '@babel/core': ~7.18.9
-      '@babel/polyfill': ~7.12.1
       '@babel/preset-env': ~7.18.9
       '@babel/preset-react': ~7.18.6
+      core-js: ~3.23.5
       next: ^12.1.6
       react: ^18.1.0
       react-dom: ^18.1.0
     dependencies:
-      '@babel/polyfill': 7.12.1
+      core-js: 3.23.5
       next: 12.2.2_850d4ee91924e701c20cec04912e6240
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -1126,14 +1126,6 @@ packages:
       '@babel/helper-plugin-utils': 7.18.9
     dev: true
 
-  /@babel/polyfill/7.12.1:
-    resolution: {integrity: sha512-X0pi0V6gxLi6lFZpGmeNa4zxtwEmCs42isWLNjZZDE0Y8yVfgu0T2OAHlzBbdYlqbW/YXVvoBHpATEM+goCj8g==}
-    deprecated: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
-    dependencies:
-      core-js: 2.6.12
-      regenerator-runtime: 0.13.9
-    dev: false
-
   /@babel/preset-env/7.18.9_@babel+core@7.18.9:
     resolution: {integrity: sha512-75pt/q95cMIHWssYtyfjVlvI+QEZQThQbKvR9xH+F/Agtw/s4Wfc2V9Bwd/P39VtixB7oWxGdH4GteTTwYJWMg==}
     engines: {node: '>=6.9.0'}
@@ -1608,9 +1600,8 @@ packages:
       semver: 7.0.0
     dev: true
 
-  /core-js/2.6.12:
-    resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
-    deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+  /core-js/3.23.5:
+    resolution: {integrity: sha512-7Vh11tujtAZy82da4duVreQysIoO2EvVrur7y6IzZkH1IHPSekuDi8Vuw1+YKjkbfWLRD7Nc9ICQ/sIUDutcyg==}
     requiresBuild: true
     dev: false
 
@@ -1994,6 +1985,7 @@ packages:
 
   /regenerator-runtime/0.13.9:
     resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
+    dev: true
 
   /regenerator-transform/0.15.0:
     resolution: {integrity: sha512-LsrGtPmbYg19bcPHwdtmXwbW+TqNvtY4riE3P83foeHRroMbH6/2ddFBfab3t7kbzc7v7p4wbkIecHImqt0QNg==}
