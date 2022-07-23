@@ -50,13 +50,13 @@ const ImportedIcon = (name) => {
 }
 
 const DynamicIcon = ({ name, ...rest }) => {
-    const Component = ImportedIcon(name)
+  const Component = ImportedIcon(name)
 
-    return (
-      <>
-        {Component != undefined ? <Component {...rest} /> : `__icon__${name}`}
-      </>
-    )
-  }
+  return (
+    <>
+      {Component != undefined ? <Component {...rest} /> : `__icon__${name}`}
+    </>
+  )
+}
 
-  export default DynamicIcon
+export default DynamicIcon

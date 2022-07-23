@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@nextjs-utils/dynamic-icon",
+      "comment": "Define file as `jsx`",
+      "type": "none"
+    }
+  ],
+  "packageName": "@nextjs-utils/dynamic-icon"
+}
