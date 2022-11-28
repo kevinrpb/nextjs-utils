@@ -1,0 +1,29 @@
+{
+  "name": "@nextjs-utils/dynamic-icon",
+  "entries": [
+    {
+      "version": "0.1.0",
+      "tag": "@nextjs-utils/dynamic-icon_v0.1.0",
+      "date": "Mon, 28 Nov 2022 09:32:48 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Change packages scope to org"
+          },
+          {
+            "comment": "Set up as module"
+          },
+          {
+            "comment": "Define file as `jsx`"
+          },
+          {
+            "comment": "Set up babel build"
+          },
+          {
+            "comment": "Update dependencies"
+          }
+        ]
+      }
+    }
+  ]
+}
