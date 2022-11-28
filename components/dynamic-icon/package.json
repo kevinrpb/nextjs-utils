@@ -1,6 +1,6 @@
 {
   "name": "@nextjs-utils/dynamic-icon",
-  "version": "0.1.0",
+  "version": "0.1.1-0",
   "description": "Dynamically import from `react-icons` by name",
   "keywords": [
     "nextjs",

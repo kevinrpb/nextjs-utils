@@ -2,7 +2,7 @@
   {
     "policyName": "nextjs-utils",
     "definitionName": "lockStepVersion",
-    "version": "0.1.0",
+    "version": "0.1.1-0",
     "nextBump": "prerelease"
   }
 ]
